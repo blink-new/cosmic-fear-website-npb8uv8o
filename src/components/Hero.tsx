@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
-import { Play, Steam, Users, Star } from 'lucide-react';
+import { Play, Gamepad2, Users, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -84,7 +84,7 @@ const Hero = () => {
               size="lg"
               className="border-red-600 text-red-400 hover:bg-red-600 hover:text-white font-semibold px-8 py-4 text-lg rounded-xl transition-all duration-300"
             >
-              <Steam className="w-5 h-5 mr-2" />
+              <Gamepad2 className="w-5 h-5 mr-2" />
               Voir sur Steam
             </Button>
           </div>

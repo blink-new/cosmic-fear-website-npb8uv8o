@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Separator } from './ui/separator';
-import { Steam, MessageCircle, Twitter, Youtube, Facebook, Mail } from 'lucide-react';
+import { Gamepad2, MessageCircle, Twitter, Youtube, Facebook, Mail } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <Steam className="w-5 h-5" />, label: "Steam", href: "#" },
+    { icon: <Gamepad2 className="w-5 h-5" />, label: "Steam", href: "#" },
     { icon: <MessageCircle className="w-5 h-5" />, label: "Discord", href: "#" },
     { icon: <Twitter className="w-5 h-5" />, label: "Twitter", href: "#" },
     { icon: <Youtube className="w-5 h-5" />, label: "YouTube", href: "#" },
